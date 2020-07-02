@@ -1,5 +1,44 @@
-*{
-    margin: 0;
-    padding: 0;
+body{
+    margin: 0%;
+    padding: 0%;
     box-sizing: border-box;
 }
+
+
+
+  .backgroundimag1 {
+    background-image: url(https://www.w3schools.com/w3images/parallax1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 1000px;
+    opacity: 0.75;
+    box-sizing: inherit;
+  
+
+  }
+  .weblogo {
+    position: absolute;
+    top: 39%;
+    left: 35%;
+    text-align: center;
+    letter-spacing: .2rem;
+    color: rgb(159, 184, 16);
+    z-index: 1;
+   
+  }
+.weblogo h3 {
+    font-weight: 700;
+    font-size: 4rem;
+    text-transform: uppercase; 
+    text-shadow: black;   
+}
+
+.weblogo h4 {
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: black;    
+}
+
