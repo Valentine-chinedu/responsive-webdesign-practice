@@ -15,8 +15,31 @@ body{
     min-height: 1000px;
     opacity: 0.75;
     box-sizing: inherit;
-  
 
+  }
+
+.contact-section-image {
+    background-image: url(/home/okosival/Downloads/andre-furtado-JtV6zyOZSrA-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    opacity: 0.75;
+    
+   
+  }
+
+.portflio-section-image {
+    background-image: url(https://www.w3schools.com/w3images/parallax2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 500px;
+    opacity: 0.75;
+    
+  
   }
   .weblogo {
     position: absolute;
@@ -42,3 +65,60 @@ body{
     text-shadow: black;    
 }
 
+.navbar {
+  background : rgba(0, 0, 0, 0.3)!important;
+  font-weight: 700;
+  font-size: .9rem;
+  letter-spacing: .1rem;
+  
+}
+
+.about {
+  padding-top: 5rem;
+  padding-bottom: 1.5rem;
+}
+
+.i-love{
+  padding-bottom: 1rem;
+}
+.first-para {
+  letter-spacing: .1rem;
+
+}
+
+.second-para {
+  padding-top: 2rem;
+  letter-spacing: .1rem;
+} 
+
+.good-at {
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.name {
+  margin-top: 2rem;
+}
+
+.photo {
+  margin-top: 3rem;
+}
+
+.fa-image {
+  margin-top: 2rem;
+}
+
+.fa-desktop {
+  margin-top: 2rem;
+}
+
+.fa-camera {
+  margin-top: 2rem;
+}
+
+.dark-row {
+  margin-top: 4rem;
+  background: black;
+  height: 7rem;
+  padding-top: 2rem;
+}
