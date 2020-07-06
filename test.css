@@ -95,6 +95,7 @@
   
 }
 
+
 .about {
   padding-top: 5rem;
   padding-bottom: 1.5rem;
@@ -124,6 +125,9 @@
 
 .photo {
   margin-top: 3rem;
+  padding-left: 9rem;
+  
+  
 }
 
 .fa-image {
