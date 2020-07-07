@@ -65,26 +65,27 @@
 
 .weblogo {
     position: absolute;
-    top: 39%;
-    left: 35%;
+    top: 45%;
+    left: 43%;
     text-align: center;
     letter-spacing: .2rem;
-    color: rgb(159, 184, 16);
     z-index: 1;
+    color: white;
+    background-color: black;
     
   }
 .weblogo h3 {
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3rem;
     text-transform: uppercase; 
-    text-shadow: black;   
+     
 }
 
 .weblogo h4 {
     font-weight: 700;
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
-    text-shadow: black;    
+   
 }
 
 .navbar {
@@ -126,7 +127,7 @@
 .photo {
   margin-top: 3rem;
   padding-left: 9rem;
-  
+  height: 200px;
   
 }
 
