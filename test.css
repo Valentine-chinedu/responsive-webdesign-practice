@@ -93,7 +93,14 @@
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
+  text-decoration: none;
   
+}
+
+.navbar-nav :hover{
+
+  color: white !important;
+
 }
 
 
@@ -129,6 +136,7 @@
   padding-left: 9rem;
   height: 200px;
   
+  
 }
 
 .fa-image {
@@ -154,6 +162,11 @@
   background-color: black;
   height: 300px;
   position: relative;
+  opacity: 0.5;
+}
+
+.bottom-background:hover{
+  opacity: 1;
 }
 
 
@@ -166,7 +179,12 @@
 
 .to-top {
   padding-top: 5rem;
+  text-decoration: none;
 
+}
+
+.to-top :hover{
+  color: darkgray !important;
 }
 
 .social-bottom {
@@ -177,6 +195,11 @@
 .social-bottom a {
   padding-left: .9rem;
   font-size: 2rem;
+  text-decoration: none;
+}
+
+.social-bottom :hover {
+  color: darkgray !important;
 }
 
 
